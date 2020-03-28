@@ -22,57 +22,32 @@ export default function Nav(props: any) {
     }
   }
   return (
-    <nav className="border border-gray-300 bg-orange-200">
-      <ul className="flex justify-between items-center p-6">
-        {username
-          ? <>
-            <li>
-              {links.map((link, index) =>
-                <Link href={link.href} key={index}>
-                  <a
-                    className="text-blue-500 no-underline border-r-2 border-blue-400 px-2"
-                  >
-                    {link.label}
-                  </a>
-                </Link>
-              )}
-
-            </li>
-
-            <ul className="flex justify-between items-center">
-              <li className="ml-4 flex flex-col">
-                <Link href={`/myAccount`}>
-                  <a className="text-xl">
-                    {username}
-                  </a>
-                </Link>
-                <p className="text-xs text-right text-gray-500">
-                  Tu Empresa
-               </p>
-                <button
-                  className="text-xs text-yellow-700"
-                  onClick={() => {
-                    window.localStorage.clear()
-                    router.push("/")
-                  }}
-                >
-                  Salir
-               </button>
-              </li>
-            </ul>
-          </>
-          : <li>
-            <Link href="/login">
-              <a
-                className="text-blue-500 no-underline border-r-2 border-blue-400 px-2"
-              >
-                Entrar
+    <footer >
+      <div className="w-full absolute bottom-0 bg-gray-300">
+        <ul className="flex justify-between items-center p-6 flex-col md:flex-row">
+          <li>
+            <Link href="/terminosycondiciones">
+              <a>
+                Términos y condiciones
               </a>
             </Link>
           </li>
-        }
-      </ul>
-
-    </nav >
+          <li>
+            <Link href="/politicadeprivacidad">
+              <a>
+                Política de Privacidad
+              </a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/contactenos">
+              <a>
+                Contáctenos
+              </a>
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </footer >
   )
 }
