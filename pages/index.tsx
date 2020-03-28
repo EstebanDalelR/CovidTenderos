@@ -9,6 +9,15 @@ const Home: NextPage<{ userAgent: string }> = ({ userAgent }) => {
     </div>
       <div>
         <StoreCard title="Super mercado 'El Cedral'" />
+        <StoreCard title="Super mercado 'El Cedral'" />
+        <StoreCard title="Super mercado 'El Cedral'" />
+        <StoreCard title="Super mercado 'El Cedral'" />
+        <StoreCard title="Super mercado 'El Cedral'" />
+        <StoreCard title="Super mercado 'El Cedral'" />
+        <StoreCard title="Super mercado 'El Cedral'" />
+        <StoreCard title="Super mercado 'El Cedral'" />
+        <StoreCard title="Super mercado 'El Cedral'" />
+        <StoreCard title="Super mercado 'El Cedral'" />
       </div>
     </div>
   )
