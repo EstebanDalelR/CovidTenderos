@@ -33,7 +33,7 @@ export default function Nav(props: any) {
         </li>
         <li className="mx-2">
           <a href="https://forms.gle/3aF1ysP9NK6RKasV9">
-            Agregar Nueva Tienda
+            Agregar Tienda
           </a>
         </li>
       </ul>
