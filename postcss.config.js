@@ -1,6 +1,5 @@
 module.exports = {
   plugins: [
-    require('tailwindcss'),
     'tailwindcss',
     process.env.NODE_ENV === 'production'
       ? [
