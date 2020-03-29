@@ -23,7 +23,7 @@ export default function Nav(props: any) {
   }
   return (
     <footer >
-      <div className="w-full absolute bottom-0 bg-gray-300">
+      <div className="w-full relative bottom-0 bg-gray-300">
         <ul className="flex justify-between items-center p-6 flex-col md:flex-row">
           <li>
             <Link href="/terminosycondiciones">
