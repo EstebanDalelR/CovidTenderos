@@ -22,7 +22,7 @@ export default function Nav(props: any) {
     }
   }
   return (
-    <nav className="border border-gray-300 bg-orange-200">
+    <nav className="border border-gray-300" style={{ backgroundColor: "#21bf73" }}>
       <ul className="flex justify-end items-center p-4">
         <li className="mx-2">
           <Link href="/porque">
