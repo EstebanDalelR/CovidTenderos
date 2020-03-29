@@ -6,10 +6,10 @@ const Home: NextPage<{ userAgent: string }> = ({ userAgent }) => {
   console.log(tiendas)
   return (
     <div className="flex flex-col md:flex-row justify-around items-center">
-      <div>
+      <div className="w-1/2">
         MAPA
-    </div>
-      <div>
+      </div>
+      <div className="w-1/2">
         {tiendas.map((tienda, index) =>
           <StoreCard
             key={index}

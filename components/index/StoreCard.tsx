@@ -7,7 +7,7 @@ interface Props {
 const StoreCard = ({ title, direccion, categorias }: Props) => {
 
   return (
-    <div className="border border-gray-200 p-4 flex">
+    <div className="border border-gray-200 p-4 flex my-2">
       <div className="h-20">
         {/* reemplazar open por uc */}
         <img className="h-20" src="https://drive.google.com/uc?id=1H9AveJrJkUjAaC_l1i8nqS-o2Wguwqf0" alt="Foto iman ${title}" />
