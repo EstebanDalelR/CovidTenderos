@@ -38,7 +38,7 @@ function loadMapData(pos)
   map.panTo(pos);
   var stores = getStores(pos);
 
-  //TODO: Agregar control que muestra mensaje "lo sentimos no hay tiendas cerca de tí, agrega la primera"
+  //TODO: issue#7 Agregar control que muestra mensaje "lo sentimos no hay tiendas cerca de tí, agrega la primera"
   for (var i = 0; i < stores.length; i++) {
     addMarker(stores[i].id, stores[i].lat, stores[i].lng, stores[i].type, stores[i].name, stores[i].address, stores[i].cellphone, stores[i].phone, stores[i].aceptsCreditCard);
   };
@@ -132,7 +132,7 @@ async function getInitialPosition()
 
 function getStores(pos)
 {
-  //TODO Fetch stores near position
+  //TODO issue#8 Fetch stores near position
   return [
     {id:1, lat:4.729530, lng:-74.035120, type:"pharmacy", name:"Droguería SuperFarma", address:"Calle 151 # 13 -80", cellphone:"3124444444", phone:"5678990", aceptsCreditCard:true},
     {id:2, lat:4.730225, lng:-74.036091, type:"bakery", name:"Panadería buen pan", address:"Calle 151 # 13 -80", cellphone:"3124444444", phone:"5678990", aceptsCreditCard:false},
@@ -199,18 +199,18 @@ contactForm.addEventListener('submit', function(event){
 
 function checkCookies()
 {
-  //TODO check if cookie exists with user id
+  //TODO issue#10 check if cookie exists with user id
   return true;
 }
 
 function logUserActivity(type)
 {
-  //TODO Log user activity in database using user id stores in cookie
+  //TODO issue#11 Log user activity in database using user id stores in cookie
 }
 
 function saveUser()
 {
-  //TODO Post user data to database and create cookie with user id
+  //TODO issue#9 Post user data to database and create cookie with user id
 }
 
 function callAction(number)
