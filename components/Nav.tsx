@@ -25,11 +25,9 @@ export default function Nav(props: any) {
     <nav className="border border-gray-300" style={{ backgroundColor: "#21bf73" }}>
       <ul className="flex justify-end items-center p-4">
         <li className="mx-2">
-          <Link href="/porque">
-            <a>
-              Por qué
+          <a href="https://docs.google.com/document/d/1-vwGQsLfJyT_Um77dpmJe5znfgHInMpXosJiMPrUF14/edit?usp=sharing">
+            Por qué
               </a>
-          </Link>
         </li>
         <li className="mx-2">
           <a href="https://forms.gle/3aF1ysP9NK6RKasV9">

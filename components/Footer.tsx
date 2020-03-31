@@ -26,25 +26,21 @@ export default function Nav(props: any) {
       <div className="w-full relative bottom-0 bg-gray-300">
         <ul className="flex justify-between items-center p-6 flex-col md:flex-row">
           <li>
-            <Link href="/terminosycondiciones">
-              <a>
-                Términos y condiciones
-              </a>
-            </Link>
+            <a href="https://docs.google.com/document/d/1-KF-Pt3p47VELPP-Sh2Ds32aM_vnkngRNxiFm3VUyx4/edit?usp=sharing">
+              Términos y Condiciones
+            </a>
           </li>
           <li>
-            <Link href="/politicadeprivacidad">
+            <a href="https://docs.google.com/document/d/1KNsPfdVCF8BuOmVOIYPsVsGVe5OjVXycJzTwCoiLUdE/edit?usp=sharing">
               <a>
                 Política de Privacidad
               </a>
-            </Link>
+            </a>
           </li>
           <li>
-            <Link href="/contactenos">
-              <a>
-                Contáctenos
-              </a>
-            </Link>
+            <a href="https://forms.gle/zRViLcroLKy5dUW86">
+              Contáctenos
+            </a>
           </li>
         </ul>
       </div>
